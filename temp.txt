@@ -1,0 +1,17 @@
+    <div class="swiper-slide " style="background: linear-gradient(to top, rgba(245, 246, 252, 0.10), rgba(0, 0, 0, 0.90)),url('../img/hero_1.jpg') center/cover ;">             
+            
+        
+
+            
+                <div class="hero-div">
+                    <h1> find your perfect property for your home </h1>
+                <div>
+                
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sapiente pariatur culpa nesciunt at molestias ea odio nam? </p>
+
+
+            
+        
+        <a class="button" href="#"> Get Started</a>
+    
+    </div> 

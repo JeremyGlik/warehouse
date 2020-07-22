@@ -2,6 +2,7 @@
 @import "base/typo";
 @import "base/colours";
 
+
 @import "helpers/variables";
 @import "helpers/mixins";
 
@@ -12,3 +13,5 @@
 @import "pages/homepage";
 
 @import "sections/hero";
+
+@import "plugins/swiper";
