@@ -1,5 +1,6 @@
 @import "base/normalize";
 @import "base/typo";
+@import "base/colours";
 
 @import "helpers/variables";
 @import "helpers/mixins";
@@ -9,3 +10,5 @@
 @import "layout/footer";
 
 @import "pages/homepage";
+
+@import "sections/hero";
