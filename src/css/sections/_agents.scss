@@ -1,0 +1,56 @@
+.about-agents {
+
+    margin-top: 40px;
+    width: 60%;
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+}
+
+
+.agents {
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+justify-content: space-between;
+
+
+    }
+
+
+.agent-wrap {
+    
+    width:30%;
+
+
+
+
+}
+
+.agent { 
+
+width: 100%;
+background-color: $myturquoise;
+
+img { 
+
+    width: 100%;
+}
+
+
+.name {
+    
+   padding-left: 20px;
+   padding-top: 20px;
+
+}
+
+.title { padding: 20px;
+
+}
+
+
+}
