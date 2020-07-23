@@ -1,0 +1,48 @@
+.contact-home {
+
+    text-align: center;
+
+    background-color: #f8f9fa;
+
+}
+
+.contact-wrapper {
+
+    justify-content: space-between;
+
+
+}
+
+.contact-left { 
+
+    text-align: left;
+    padding: 30px;
+    background-color: #fff;
+    width: 55%;
+
+}
+.contact-right { 
+    
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    text-align: left;
+    p { padding-bottom: 15px;
+        line-height: 1.7;
+    
+    }
+
+    a { 
+        
+        color: $myturquoise;
+        &:hover { 
+
+            color: $link-hover;
+        }
+    
+    }
+    padding: 30px;
+    background-color: #fff;
+    width: 30%;
+
+}
+

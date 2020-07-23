@@ -4,6 +4,61 @@ height:611px;
 background-color: #333333;
 width: 100%;
 
-.wrapper { border-bottom: gray 1px solid;}
 
+.wrapper {
+    
+    border-bottom: gray 1px solid;
+    justify-content: space-between;
+
+
+}
+
+.footer-left {
+
+    width: 350px;
+}
+
+.footer-right {
+
+    width: 350px;
+}
+
+
+
+h3{ 
+    color:white;
+    font-size: 16px;
+    padding-bottom: 30px;
+
+}
+
+p { 
+
+    color:#737373;
+    line-height: 1.7;
+    margin-bottom: 150px;
+    
+ 
+
+}
+
+}
+
+.fa-twitter{ 
+
+    color:#737373;
+    // font-size: 25px;
+    margin-right: 20px;
+}
+.fa-facebook-square{ 
+
+    color:#737373;
+    // font-size: 25px;
+    margin-right: 20px;
+}
+.fa-instagram-square{ 
+
+    color:#737373;
+    // font-size: 25px;
+    margin-right: 20px;
 }

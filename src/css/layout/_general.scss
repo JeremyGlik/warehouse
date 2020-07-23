@@ -94,5 +94,16 @@ flex-direction: row;
 
 }
 
+.flex-column { 
+
+    display: flex;
+    flex-direction: column;
+}
+
 .flex-wrap { flex-wrap: wrap;}
+
+.roboto-bold {
+
+    font-weight: 700;
+}
 
