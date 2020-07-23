@@ -1,0 +1,31 @@
+.newsevents {
+
+    text-align: center;
+    .news-wrap {
+
+        width: 100%;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+
+
+}
+
+.news { 
+
+    width: 30%;
+    img { width: 100%;}
+    h3 { padding: 20px 0 10px;}
+    a { 
+        
+        color: $myturquoise;
+        &:hover { 
+
+            color: $link-hover;
+        }
+    
+    
+    }
+
+}
