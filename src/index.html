@@ -19,11 +19,11 @@
             <div class="logo"><a href="index.html">warehouse</a></div>
             <div class="navigation">
                 
-                <a href="index.html">home</a>
-                <a href="">properties</a>
-                <a href="">Agents</a>
-                <a href="">news</a>
-                <a href="">Contact</a>
+                <a href="#anchor-1" class="fade-in quick" onclick="smoothScroll('anchor-0');">home</a>
+                <a href="#anchor-1" class="fade-in quick" onclick="smoothScroll('anchor-1');">properties</a>
+                <a href="#anchor-2" class="fade-in quick" onclick="smoothScroll('anchor-2');">Agents</a>
+                <a href="#anchor-3" class="fade-in quick" onclick="smoothScroll('anchor-3');">news</a>
+                <a href="#anchor-4" class="fade-in quick" onclick="smoothScroll('anchor-4');">Contact</a>
                 
             </div>
             
@@ -31,7 +31,7 @@
         
     </header>
     
-    <section class="hero">
+    <section class="hero" id="anchor-0">
         
         <!-- Slider main container -->
         <div class="swiper-container">
@@ -84,11 +84,11 @@
     <!-- fin de la section hero  -->
     
     <!-- debut section property  -->
-    <section class="property wrapper"> 
+    <section class="property wrapper" id="anchor-1"> 
         
         <div class="spacer"></div>
         
-        <h2>  OUR OUTSTANDING HOUSES</h2>
+        <h2 >  OUR OUTSTANDING HOUSES</h2>
         
         <div class="spacer"></div>
         
@@ -151,7 +151,7 @@
     <div class="spacer"></div>
     
     
-    <section class="wrapper" >
+    <section class="wrapper" id="anchor-2">
         
         <h2>  Real estate agents</h2>
 
@@ -263,7 +263,7 @@
 
        <!-- FIN SECTION HOW IT WORK  -->
 
-<Section class=" news wrapper "> 
+<Section class=" news wrapper " id="anchor-3" > 
 
 <!-- DEBUT SECTION NEWS&EVENTS  -->
 
@@ -315,7 +315,7 @@
 
 <!-- DEBUT SECTION CONTACT US  -->
 
-<section class="contact-home ">
+<section class="contact-home "  id="anchor-4">
 
     <!-- <div class="spacer"></div>
 
@@ -437,5 +437,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/main.min.js"></script>
     <script src="js/swiper.min.js"></script>
+    <script src="js/smoothscroll.min.js"></script>
 </body>
 </html>
