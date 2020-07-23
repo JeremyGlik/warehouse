@@ -5,6 +5,13 @@ height: 385px;
 width: 100%;
 text-align: center;
 
+@media screen and (max-width: 375px) {
+
+height: auto;
+padding-bottom: 3rem;
+    
+}
+
 .spacer {height: 60px;}
 
 .steps-wrap { 

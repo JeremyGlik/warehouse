@@ -25,6 +25,12 @@ h1 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
 
+    @media screen and (max-width: 375px) {
+
+        font-size: 2rem;
+        
+    }
+
 }
 
 h2 { 
@@ -39,6 +45,13 @@ h2 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     // margin-bottom: 3rem;
+
+    
+    @media screen and (max-width: 375px) {
+
+        font-size: 2rem;
+        
+    }
 
 
 }
@@ -77,6 +90,12 @@ text-transform: uppercase;
 
 
     height:100px;
+
+    @media screen and (max-width: 375px) {
+
+        height: 3rem;
+        
+    }
 }
 
 p { font-family: "oswald";}
@@ -90,6 +109,12 @@ p { font-family: "oswald";}
 
 display: flex;
 flex-direction: row;
+
+@media screen and (max-width: 375px) {
+
+    flex-direction: column;
+    
+}
 
 
 }
