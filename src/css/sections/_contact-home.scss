@@ -9,6 +9,7 @@
 .contact-wrapper {
 
     justify-content: space-between;
+    padding: 30px;
 
 
 }
@@ -18,7 +19,21 @@
     text-align: left;
     padding: 30px;
     background-color: #fff;
-    width: 55%;
+    width: 50%;
+
+    h3 {
+
+margin-bottom: 30px;
+
+    }
+
+    .button {
+        
+        border: 0px;
+        margin-top: 30px; 
+    
+    
+    }
 
 }
 .contact-right { 
@@ -46,3 +61,41 @@
 
 }
 
+.form-wrap {
+
+    font-family: 'Roboto', sans-serif;
+
+    // display: flex;
+    // flex-direction: row;
+
+
+max-width: 100%;
+
+}
+
+.first_last { 
+
+    width: 450px;
+    // input { width:100%}
+
+    div{
+        
+        padding-right: 30px;
+}
+
+}
+label {display: block;
+    
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+input {padding: 10px;
+    width: 96%;
+
+
+}
+
+textarea { width: 561px;}
+
+.button { width: 200px;}
